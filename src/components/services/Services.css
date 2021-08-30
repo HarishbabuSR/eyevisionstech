@@ -1,0 +1,43 @@
+.serviceUl, .serviceList ,a{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 18px;
+    margin-inline-end: 0px;
+    padding-inline-start: 300px;
+    background-color: #f7f9fb;
+    color:black;
+}
+.serviceList,a{
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+.serviceList:hover{
+    color: orange;
+}
+.webdetails{
+      line-height: 1em;
+      margin-left: 40px;
+}
+.responseweb{
+    color: coral;
+    line-height: 2em;
+    margin-top: 19px;
+}
+
+.quotebtn{
+    width: 170px;
+    background-color:darkgray;
+   color: cornsilk;
+   border-radius:25px;
+   padding: 8px;
+   line-height: 2em;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.servicetab{
+    margin-top: 0px;
+}

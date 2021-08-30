@@ -1,0 +1,48 @@
+.contactdetails{
+    margin-top: 20px;
+    /* margin-left: 270px; */
+    /* align-items: center;
+    justify-content: center; */
+    margin-bottom: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.contactallone,.contactallone,.contactallone{
+    align-items: center;
+    justify-content: center;
+}
+.conatctone,.contacttwo,.conatctthree{
+    margin-top: 50px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.conatctpara{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight:400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.6;
+}
+.numbercontact{
+    color: coral;
+}
+.contactimgthree{
+    align-items: center;
+    justify-content: center;
+  
+}
+.contactHead{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    text-decoration: underline;
+}
+
+.conatactmain{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
