@@ -1,7 +1,7 @@
 .footermainall{
     width: 100%;
-    background-color:#252525 ;
-    color:#bdbdbd;
+    background: teal  ;
+    color:#000;
     padding-bottom: 50px;
     transition: transform 250ms;
 }
@@ -9,9 +9,7 @@
     margin-top: 100px;
     align-items: center;
 }
-.footercontentone{
-    /* padding-left: 100px; */
-}
+
 .footheader {
     font-size: 1.5rem;
     font-weight: 600;
@@ -32,7 +30,7 @@
     
 }
 .footerlist:hover{
-    color: lightgreen;
+    color: gold;
    
 }
 
@@ -57,13 +55,28 @@
 } */
 
 .footer-info{
-    background-color: #141414;
-    color: #587D82;
-   padding: 25px;
+    background-color: darkslategray;
+    color: wheat;
+   padding: 15px;
    padding-left: 100px;
    margin-bottom: 30px;
    margin-right: 11px;
-  display: flex;
+   display: flex;
+   flex-direction: column;
+   display: block;
+}
+
+.foo-text{
+   
+    text-decoration: underline;
+   
+}
+.reachme{
+    float: right;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5%;
+    padding-right: 80px;
 }
 
 .footimg{

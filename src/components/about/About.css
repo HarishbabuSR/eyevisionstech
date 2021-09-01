@@ -70,6 +70,15 @@
    background-color: #f7f7f7;
    box-shadow:0 0 0 1px greenyellow;
 }
+.designcolor:hover{
+   background: burlywood;
+}
 .designcolornew{
    margin-top: 20px;  
+}
+
+.displayImg{
+   /* margin-top: 15%; */
+   /* margin-bottom: 2%; */
+   margin-top: 13%;
 }

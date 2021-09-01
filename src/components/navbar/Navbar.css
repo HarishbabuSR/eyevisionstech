@@ -26,8 +26,11 @@ i {
 }
 
 .navbar-mainbg {
-  padding: 0px;
-  background : linear-gradient(-30deg,white,teal);
+  padding: 20px;
+  height: 14vh;
+  background : linear-gradient(-30deg,#F7F9FB,azure);
+  border-bottom-style: groove;
+  border-bottom-color:darkturquoise ;
 }
 
 #navbarSupportedContent {
@@ -60,22 +63,27 @@ i {
 }
 
 #navbarSupportedContent ul li a{
-  /* color: rgba(255, 255, 255, 0.5); */
+  color:#000000;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 400;
   display: block;
   padding: 20px 20px;
   /* transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); */
   position: relative;
-  background: transparent;
+  /* background: transparent; */
 }
 
-#navbarSupportedContent > ul > li.active > a {
-  /* color : #000000; */
-  /* background-color: transparent; */
-  transition: all 0.7s;
+#navbarSupportedContent ul li a:hover{
+  color:purple;
 }
+
+/* #navbarSupportedContent > ul > li.active > a {
+  color : #000000;
+  background-color: transparent;
+  transition: all 0.7s;
+} */
 
 #navbarSupportedContent a:not(:only-child):after {
   content: '\f105';
@@ -108,10 +116,7 @@ i {
   border-top-right-radius: 15px;
   margin-top: 10px;
 } */
-li:hover{
- 
-  cursor: pointer;
-}
+
 .hori-selector .right,
 .hori-selector .left {
   position: absolute;

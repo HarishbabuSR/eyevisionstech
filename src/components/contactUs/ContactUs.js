@@ -6,7 +6,7 @@ import mail from "../../assets/images/mail-one.png";
 const ContactUs = () => {
   return (
     <React.Fragment>
-      <div className=' container' style={{backgroundColor:"lightcyan", marginTop:"10px"}}>
+      {/* <div className=' container' style={{backgroundColor:"lightcyan", marginTop:"10px"}}>
             <div className='row conatactmain'>
                  <h3 className='contactHead'>Contact Us</h3>
             </div>
@@ -26,7 +26,7 @@ const ContactUs = () => {
              </div>
                  <div className='contacttwo'>
                      Email Address
-                  <p className='conatctpara'>info@3eyevisions.com</p>
+                  <p  className='conatctpara'>info@3eyevisions.com</p>
                  </div>
               </div>
               <div className='col contactallthree'>
@@ -39,7 +39,7 @@ const ContactUs = () => {
                  </div>
               </div>
              </div>
-        </div> 
+        </div>  */}
 
       {/* <div className="container">
         <div className="row">
@@ -78,6 +78,47 @@ const ContactUs = () => {
           </div>
         
       </div> */}
+      <div className="container mb-4">
+        <div className="row">
+          <h1 className="contacthead">Contact Us</h1>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <div className="contactbody">
+                  <img src={phone} alt='#' width='100' height='100' />
+                  <p>Phone Number</p>
+                  <p className='conatctpara'>mobile : <span className='numbercontact'>+91-9538301143</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body animated bounce infinite slower">
+                <div className="contactbody">
+                  <img src={mail} alt='#' width='100' height='100'/>
+                  <p>Email Address</p>
+                  <p  className='conatctpara'>info@3eyevisions.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <div className="contactbody">
+                  <a className="" href="https://www.google.com/maps/place/3rd+Eye+Visions+Technology/@12.825614,77.6832802,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae6da4e8aa52d3:0x511a090b23285054!8m2!3d12.825614!4d77.6854689" target="_"><img src={map} className="mapImg" alt='#' width='100' height='100'/></a>
+                  <p>Our Location</p>
+                  <p className='conatctpara'>B9/45 Banglore Vidyanagr <br/>Karnataka India-570018</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </React.Fragment>
   );
 };

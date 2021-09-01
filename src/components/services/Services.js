@@ -1,9 +1,9 @@
 import React from 'react';
-import "../services/Services.css"
-import service from "../../assets/images/webdesignew.png"
-import dogi from "../../assets/images/dogital.png"
-import mobile from "../../assets/images/mobile.png"
-import application from "../../assets/images/webapplication.png"
+import "../services/Services.css";
+import webdesign from "../../assets/images/webDesign1.jpg";
+import digital from "../../assets/images/marketing.jpeg";
+import mobile from "../../assets/images/mobileApplication.png";
+import webapplication from "../../assets/images/webapplication1.jpg";
 
 const Services = () => {
     return(
@@ -20,7 +20,7 @@ const Services = () => {
           <div className='section p-4'>
              <div className='row'>
               <div className='col webdetails'>
-                   <h1>Web design</h1>
+                   <h1 className="animated rollIn infinite slower">Web design</h1>
                    <p className='h3' style={{opacity:'0.6',fontSize:'20px',fontFamily:'sans-serif'}}>The Banyan Infotech is the best web design company in Coimbatore. We offer services like web design, web development and WordPress development. We follow the best coding standards and all our websites will be fully responsive. Our Services include:</p>      
                    <div className='responseweb'>
                        <div>Responsive Web Design</div>
@@ -30,17 +30,17 @@ const Services = () => {
                    </div>
               </div>
               <div className='col'>
-                  <img src={service} alt=''/>  
+                  <img src={webdesign} className="marketingImg animated heartBeat infinite slower" alt=''/>  
               </div>
              </div>
           </div>
           <div className='section p-4'>
              <div className='row'>
              <div className='col'>
-                  <img src={mobile} alt=''/>  
+                  <img src={mobile} className="marketingImg animated rollIn infinite slower" alt=''/>  
               </div>
               <div className='col webdetails'>
-                   <h1>Mobile Application</h1>
+                   <h1  className=" animated rollIn infinite slower">Mobile Application</h1>
                    <p className='h3' style={{opacity:'0.6',fontSize:'20px',fontFamily:'sans-serif'}}>The Banyan Infotech is the best web development company in Coimbatore. We develop web applications like ERP, CRM, HRM and E-Commerce applications according to our client's requirements. Our Web Development services include:</p>      
                    <div className='responseweb'>
                        <div>ERP Development.</div>
@@ -55,7 +55,7 @@ const Services = () => {
           <div className='section p-4'>
              <div className='row'>
               <div className='col webdetails'>
-                   <h1>Web Application</h1>
+                   <h1 className="animated jello infinite slower">Web Application</h1>
                    <p className='h3' style={{opacity:'0.6',fontSize:'20px',fontFamily:'sans-serif'}}>The Banyan Infotech is the best web design company in Coimbatore. We offer services like web design, web development and WordPress development. We follow the best coding standards and all our websites will be fully responsive. Our Services include:</p>      
                    <div className='responseweb'>
                        <div>Responsive Web Design</div>
@@ -65,17 +65,17 @@ const Services = () => {
                    </div>
               </div>
               <div className='col'>
-                  <img src={application} alt=''/>  
+                  <img src={webapplication} className="marketingImg animated jello infinite slower" alt=''/>  
               </div>
              </div>
           </div>
           <div className='section p-4'>
              <div className='row'>
              <div className='col'>
-                  <img src={dogi} alt=''/>  
+                  <img src={digital} className="marketingImg animated zoomIn infinite slower" alt=''/>  
               </div>
               <div className='col webdetails'>
-                   <h1>Digital Marketing</h1>
+                   <h1 className="animated zoomIn infinite slower">Digital Marketing</h1>
                    <p className='h3' style={{opacity:'0.6',fontSize:'20px',fontFamily:'sans-serif'}}>The Banyan Infotech is the best web design company in Coimbatore. We offer services like web design, web development and WordPress development. We follow the best coding standards and all our websites will be fully responsive. Our Services include:</p>      
                    <div className='responseweb'>
                        <div>Responsive Web Design</div>
@@ -84,7 +84,6 @@ const Services = () => {
                    <div className='quotebtn'>Get Quote</div>
                    </div>
               </div>
-              
              </div>
           </div>
         </div>
@@ -92,6 +91,6 @@ const Services = () => {
     )
 }
 
-
-
 export default Services;
+
+

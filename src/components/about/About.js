@@ -1,10 +1,23 @@
 import React,{useState} from 'react';
 import newone from "../../assets/images/laptop1.jpg"
-import imgtab from "../../assets/images/main-tab1.jpg"
-import office from "../../assets/images/office1.jpeg"
+import responsive from "../../assets/images/responsive2.png"
+import cleancode from "../../assets/images/cleanCode1.jpg"
+import dailyScrum from "../../assets/images/dailyScrum.png"
 import "./About.css"
 
 const About = () => {
+  const [state, setstate] = useState({
+    image :responsive,
+    color : {}
+  })
+  var imageChanges = (e1, e2) =>{
+    console.log(e1)
+    return(
+      setstate(
+        {
+          ...state,image1:e1, color:e2
+        })
+    )}
     return(
         <React.Fragment>
            
@@ -82,28 +95,28 @@ const About = () => {
            
               <div className='row designdetails'>
                    <div className='col-lg-4 '>
-                    <div className='card designcolor'>
+                    <div className={`card designcolor`}>
                     
-                       <div className='card-body'>
+                       <div className='card-body animated jello' style={state.color}  onClick={imageChanges.bind(this,responsive,{"background":"blue"})}>
                             <h2>Responsive Design</h2>
                             <p>80% of today's web traffic is coming through mobile devices. So we never compromise on the responsive design of our web applications.</p>
                        </div>
                     </div>
                     <div className='card designcolor'>
-                       <div className='card-body'>
+                       <div className='card-body animated jello' style={state.color} onClick={imageChanges.bind(this,cleancode)}>
                             <h2>Clean Code</h2>
                             <p>We do regular code reviews and check-ins to ensure our codes are clean and follow all standard procedures.</p>
                        </div>
                     </div>
                     <div className='card designcolor'>
-                       <div className='card-body'>
+                       <div className='card-body animated jello'style={state.color} onClick={imageChanges.bind(this,dailyScrum)}>
                             <h2>Daily Scrum</h2>
                             <p>Our team will meet daily and report to the scrum master who will clear away obstacles that the developer may face. This planned process ensures the efficient utilization of resources and quick delivery of the application.</p>
                        </div>
                     </div>
                    </div>
                    <div className='col-lg-6 designcolornew'>
-                     <img src={imgtab} alt='#'/>
+                    <img src={state.image ? state.image  : null} style={{height : "80%", width : "130%"}} className="displayImg animated jello"  alt = ''/>
                    </div>
               </div>
               </div>

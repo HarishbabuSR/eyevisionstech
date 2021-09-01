@@ -1,8 +1,8 @@
-.contactdetails{
+/* .contactdetails{
     margin-top: 20px;
-    /* margin-left: 270px; */
-    /* align-items: center;
-    justify-content: center; */
+    margin-left: 270px;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 90px;
     align-items: center;
     text-align: center;
@@ -43,6 +43,42 @@
 
 .conatactmain{
     margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.contacthead{
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contactbody{
+    text-align: center;
+    margin: 30px;
+    height: 180px;
+    justify-content: center;
+}
+
+.numbercontact{
+    color: coral;
+}
+
+.conatctpara{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight:400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.6;
+}
+
+.mapImg{
+    text-align: center;
+    margin-bottom: auto;
     align-items: center;
     justify-content: center;
 }

@@ -1,12 +1,6 @@
 import React from "react";
-// import {Link} from "react-dom";
 import { NavLink as Link } from 'react-router-dom';
-import logo from "../../assets/images/Eyevision Logo.png";
-import logo1 from "../../assets/images/Logo1.png";
-import logo2 from "../../assets/images/Logo2.jpeg"
 import "../navbar/Navbar.css"
-// import {NavLink} from 'react-router-dom';
-import Home from "../home/Home";
 
 let Navbar = ()=>{
     return (
@@ -35,8 +29,8 @@ let Navbar = ()=>{
             </nav> */}
             <nav className="navbar sticky-top navbar-expand-lg navbar-mainbg">
                 <a href="/" className="navbar-brand navbar-logo" >
+                    <h1>3rd Eye Visions Technology</h1>
                    {/* <img src={logo2} width="50" height="50"/> */}
-                   {/* 3rd Eye visions Technology<sub>Connecting Better For Better Vision </sub> */}
                 </a>
 
                 <button
@@ -47,7 +41,7 @@ let Navbar = ()=>{
                     aria-controls="navbarSupportedContentr"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <i className="fa fa-bars text-white"></i>  
+                    <i className="fa fa-bars text-black"></i>  
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
